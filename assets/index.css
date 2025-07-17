@@ -150,12 +150,26 @@ nav label {
 }
 
 .hero-container .image-section {
+    position: relative;
     max-width: 45%;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 .hero-container .image-section img {
     width: 100%;
-    padding: 50px;
+    border-radius: 50px;
+}
+
+.hero-section .image-section .shared-story {
+    position: absolute;
+    bottom: 10px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px;
+    border-radius: 50px;
 }
 
 /* about us styling */
@@ -194,6 +208,7 @@ nav label {
     background: var(--light-gray-color);
 }
 
+
 .about-container {
     display: flex;
     justify-content: space-between;
@@ -218,11 +233,12 @@ nav label {
     color: #ffb300;
 }
 
-.about-container .video-section {
+.about-container .about-us-img {
+    padding: 20px;
     max-width: 45%;
 }
 
-.about-container .video-section video {
+.about-container .about-us-img img {
     width: 100%;
 }
 
