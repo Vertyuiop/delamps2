@@ -9,10 +9,10 @@
 
 :root {
     /* Colors */
-    --primary-color: #f3cc3f;
+    --primary-color: #814e10;
     --secondary-color: #ff9d00;
     --tertiary-color: #c3780ee7;
-    --dark-color: #b46d29;
+    --dark-color: #915005;
     --white-color: #fff;
     --light-gray-color: #f2f2f2;
 
@@ -230,7 +230,7 @@ nav label {
 }
 
 .section-container .text-section span {
-    color: #ffb300;
+    color: #ec7804;
 }
 
 .about-container .about-us-img {
